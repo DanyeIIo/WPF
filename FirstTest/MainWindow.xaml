@@ -1,0 +1,52 @@
+﻿<Window x:Class="FirstTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstTest"
+        mc:Ignorable="d"
+        Title="Money checker" Height="355" Width="500" >
+    <Grid>
+		<!--<Button>"I'm a button"</Button>-->
+		<!--<Button/>-->
+		<!--<Button Width="101" Height="51">I'm here</Button>-->
+		<!--<Button Width="51" Height="51" Content=" &amp;kk&amp;" x:Name="button1" Click="Button1_Click"/>-->
+		<!--<Button Width="50" />-->
+		<!--<StackPanel>
+			<Label Content="First name and Last name" Background="LightBlue"/>
+			<TextBox x:Name="fio" Text=""/>
+			<Label Content="Birthdate" Background="LightBlue"/>
+			<TextBox x:Name="date" Text=""/>
+			<Label Content="Password" Background="LightBlue"/>
+			<TextBox x:Name="pass" Text=""/>
+			<Label Content="Password verification" Background="LightBlue"/>
+			<TextBox x:Name="passVerif" Text=""/>
+			<Button Content="oK" Click="Button_Click" x:Name="button"/>
+			<Label Name="lResult"/>
+		</StackPanel>-->
+		
+		<!--<StackPanel>
+			<Label Content="Count of person in family" Background="LightBlue"/>
+			<TextBox x:Name="countOfPerson" Text=""/>
+			<Label Content="Ticket Cost" Background="LightBlue"/>
+			<TextBox x:Name="ticketCost" Text=""/>
+			<Label Content="Hotel Cost" Background="LightBlue"/>
+			<TextBox x:Name="hotelCost" Text=""/>
+			<Label Content="Count of days of stay at the hotel" Background="LightBlue"/>
+			<TextBox x:Name="countDaysInHotel" Text=""/>
+			<Label Content="Visa Costs" Background="LightBlue"/>
+			<TextBox x:Name="visaСosts" Text=""/>
+			<Label Content="Excursion cost limit" Background="LightBlue"/>
+			<TextBox x:Name="excursionCostLimit" Text=""/>
+			<Button Content="oK" Click="Button_Click" x:Name="button"/>
+			<Label Name="lResult"/>
+		</StackPanel>-->
+
+		<StackPanel>
+			<Label Content="Input diapason by space" Background="LightBlue"/>
+			<TextBox x:Name="numbers" Text=""/>
+			<Button Content="oK" Click="Button_Click" x:Name="button"/>
+			<Label Name="lResult"/>
+		</StackPanel>
+	</Grid>
+</Window>
