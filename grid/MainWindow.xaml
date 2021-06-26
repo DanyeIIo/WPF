@@ -1,0 +1,120 @@
+﻿<Window x:Class="grid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:grid"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--<Grid>
+		<UniformGrid Columns="2" Rows="2">
+			<Button Content="Left Top"/>
+			<Button Content="Right Top"/>
+			<Button Content="Left Bottom"/>
+			<Button Content="Right Bottom"/>
+		</UniformGrid>
+		--><!--<Button Grid.Column="1" Grid.Row="0" Content="Span" Grid.ColumnSpan="2"/>--><!--
+
+	</Grid>-->
+	<!--<DockPanel LastChildFill="True">
+		<Button DockPanel.Dock="Top" Content="Up"/>
+		<Button DockPanel.Dock="Bottom" Content="Down"/>
+		<Button DockPanel.Dock="Left" Content="Left"/>
+		<Button DockPanel.Dock="Right" Content="Right"/>
+		<Button Content="Quacking Quack"/>
+	</DockPanel>-->
+	<StackPanel>
+		<StackPanel>
+			<Button Height="30" Background="LightGoldenrodYellow"/>
+			<Button Height="30" Background="LightSalmon"/>
+		</StackPanel>
+		<Label/>
+		<StackPanel>
+			<Button Height="20" Background="LightCoral"/>
+			<Button Height="20" Background="LightGreen"/>
+			<Button Height="20" Background="LightCyan"/>
+		</StackPanel>
+		<Label/>
+		<StackPanel Orientation="Horizontal" Height="60" Margin="0,0,-0.4,0">
+			<Button Width="40" Background="LightCoral"/>
+			<Button Width="40" Background="LightGreen"/>
+			<Button Width="40" Background="LightCyan"/>
+		</StackPanel>
+	</StackPanel>
+	
+	<!--<Canvas>
+		<Button x:Name="b1" Height="20" Width="120" Click="Button_Click">
+			<Button Content ="Button in button"/>
+		</Button>
+		<Button x:Name="b2" Height="20" Width="120" Canvas.Left="121">
+			<StackPanel Orientation="Horizontal">
+				<Label Width="20"/>
+				<TextBox Width="60"/>
+				<Button Content="OK"/>
+			</StackPanel>
+		</Button>
+		
+		<Button x:Name="b3" Height="20" Width="120" Canvas.Left="242"/>
+		<Button x:Name="b4" Height="20" Width="120" Canvas.Right="20" Canvas.Bottom="20"/>
+	</Canvas>-->
+	
+	<!--<StackPanel>
+		<Button HorizontalContentAlignment="Left" Content="Left" Height="90" Width="100"/>
+		<Button HorizontalContentAlignment="Center" Content="Center" Height="90" Width="100"/>
+		<Button HorizontalContentAlignment="Right" Content="Right" Height="90" Width="100"/>
+	</StackPanel>-->
+
+	<!--<StackPanel>
+		<Button Padding="200 0 0 40">
+			Hello Shit
+		</Button>
+		<Button Padding="60 60 0 2">
+			bye Shit
+		</Button>
+		<Button Margin="200 5 0 40">
+			HALO MALO
+		</Button>
+		<Button Margin="5">
+			U still wrong,sry
+		</Button>
+	</StackPanel>-->
+	
+	<!--<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="0.1*"/>
+			<RowDefinition Height="0.3*"/>
+			<RowDefinition Height="0.3*"/>
+			<RowDefinition Height="0.3*"/>
+		</Grid.RowDefinitions>
+		
+		<Label Grid.Column="0" Grid.Row="0" Content="Square" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightBlue"/>
+		<Label Grid.Column="1" Grid.Row="0" Content="Cube" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightBlue"/>
+		<Label Grid.Column="2" Grid.Row="0" Content="Square root" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightBlue"/>
+		<Label Grid.Column="3" Grid.Row="0" Content="Degree of" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightBlue"/>
+
+		<TextBox x:Name="tbResSquare" Grid.Column="0" Grid.Row="1" Text="" TextAlignment="Center" VerticalContentAlignment="Center" Background="LightSteelBlue"/>
+		<TextBox x:Name="tbresCube" Grid.Column="1" Grid.Row="1" Text="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightSteelBlue"/>
+		<TextBox x:Name="tbResSquareRoot" Grid.Column="2" Grid.Row="1" Text="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightSteelBlue"/>
+		<TextBox x:Name="tbresDegreeOf" Grid.Column="3" Grid.Row="1" Text="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightSteelBlue"/>
+		
+		<Button Grid.Column="0" Grid.Row="2" Content="Click me" Background="SpringGreen" Click="Button_Click"/>
+		<Button Grid.Column="1" Grid.Row="2" Content="Click me" Background="SpringGreen" Click="Button_Click_1"/>
+		<Button Grid.Column="2" Grid.Row="2" Content="Click me" Background="SpringGreen" Click="Button_Click_2"/>
+		<Button Grid.Column="3" Grid.Row="2" Content="Click me" Background="SpringGreen" Click="Button_Click_3"/>
+
+		<Label x:Name="lResSquare" Grid.Column="0" Grid.Row="3" Background="DeepSkyBlue"/>
+		<Label x:Name="lResCub" Grid.Column="1" Grid.Row="3" Background="DeepSkyBlue"/>
+		<Label x:Name="lResSquareRoot" Grid.Column="2" Grid.Row="3" Background="DeepSkyBlue"/>
+		<Label x:Name="lResDegreeOf" Grid.Column="3" Grid.Row="3" Background="DeepSkyBlue"/>
+	</Grid>-->
+
+	<!--<Canvas>
+		<Button x:Name="bRunner" Width="50" Height="50" Content="Click me" Click="bRunner_Click"/>
+	</Canvas>-->
+</Window>
