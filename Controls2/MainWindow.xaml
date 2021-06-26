@@ -1,0 +1,131 @@
+﻿<!--<Window x:Class="Controls2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Controls2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="940.8" Width="800">
+    <StackPanel>
+		<PasswordBox x:Name="pb1" Margin="4" Background="AliceBlue"/>
+		<PasswordBox  PasswordChar="*" Margin="4" Background="AliceBlue"/>
+		<PasswordBox  Background="AliceBlue"/>
+		<Button x:Name="b1" Content="SHOW ME HOW" Click="B1_Click"/>
+		<Image Source = "Images/Billey.gif" Height="100" Width="100"/>
+
+		<Button Width="205" Height="100">
+			<StackPanel Orientation="Horizontal" Margin="1" Width="170">
+				<Image Source="Images/abc.png"/>
+				<TextBlock Text="HA HA ha" Margin="10"/>
+			</StackPanel>
+		</Button>
+		<StackPanel Width="200">
+			--><!--<Border BorderBrush="DarkViolet" BorderThickness="7">
+				<Image Source ="Images/abc.png"/>
+			</Border>
+			<Border BorderBrush="DarkViolet" BorderThickness="7" CornerRadius="100">
+				<Image Source ="Images/abc.png"/>
+			</Border>
+			<Border BorderBrush="DarkViolet" BorderThickness="7" CornerRadius="100 0 100 0">
+				<Image Source ="Images/abc.png"/>
+			</Border>-->
+			<!--<ProgressBar Minimum="0" Maximum="100" Value="50" Height="25"/>
+			<ProgressBar Minimum="0" Maximum="100" Value="20" Height="200" Width="25" Orientation="Vertical" Name="pb" ValueChanged="pb_ValueChanged"/>
+			<Slider x:Name="slider" Orientation="Horizontal" Margin="5" Value="0" Minimum="0" Maximum="50"/>--><!--
+		</StackPanel>
+		--><!--<StackPanel>
+			<Expander Header="Student" HorizontalAlignment="Right" Margin="0,0,-0.4,0" Width="794">
+				<TextBox Text="KRAKEN"/>
+			</Expander>
+			<Expander>
+				<Expander Header="Courses">
+					<StackPanel>
+						<CheckBox>C++</CheckBox>
+						<CheckBox>C++</CheckBox>
+						<CheckBox>C++</CheckBox>
+						<CheckBox>C++</CheckBox>
+						<CheckBox>C++</CheckBox>
+					</StackPanel>
+				</Expander>
+			</Expander>
+		</StackPanel>-->
+		<!--<GroupBox Header="Course">
+			<StackPanel Margin="5">
+				<RadioButton Margin="3" Content="228"/>
+				<RadioButton Margin="3" Content="228"/>
+				<RadioButton Margin="3" Content="228"/>
+				<RadioButton Margin="3" Content="228"/>
+				<RadioButton Margin="3" Content="228"/>
+				<RadioButton Margin="3" Content="228"/>
+				<RadioButton Margin="3" Content="228"/>
+				<RadioButton Margin="3" Content="228" IsChecked="True"/>
+			</StackPanel>
+		</GroupBox>--><!--
+		<GroupBox Header="Course" Height="200">
+			<ScrollViewer>
+				<StackPanel Margin="5">
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228"/>
+					<RadioButton Margin="3" Content="228" IsChecked="True"/>
+				</StackPanel>
+			</ScrollViewer>
+		</GroupBox>
+		<Button Content="OK" ToolTip="THIS IS BUTTON"/>
+		<Button Content="OK">
+			<Button.ToolTip>
+				<ToolTip>
+					<StackPanel>
+						<Image Source="Images/New_Kraken.png" Height="50" Width="50"/>
+						<TextBlock Text="THIS IS BUTTON HA?"/>
+					</StackPanel>
+				</ToolTip>
+			</Button.ToolTip>
+		</Button>
+	</StackPanel>
+</Window>-->
+<Window x:Class="Controls2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Controls2"
+        mc:Ignorable="d"
+        Title="Transform" Height="500" Width="500"
+        MinHeight="250" MinWidth="250"
+        >
+	<Canvas>
+		<Button Name="bMain" Content="Click Me" Click="Win_Click" MouseMove="MouseMove" Height="50" Width="50"
+                Canvas.Left="200" Canvas.Top="200"
+                />
+	</Canvas>
+</Window>
