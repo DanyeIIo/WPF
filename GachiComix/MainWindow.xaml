@@ -1,0 +1,38 @@
+﻿<Window x:Class="GachiComix.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GachiComix"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="803.905" Width="368.8">
+	<ScrollViewer x:Name="scroll" CanContentScroll="True">
+		<StackPanel>
+
+			<Border BorderBrush="DarkBlue" BorderThickness="8" ToolTip="BILLEY" x:Name="border1" Width="250">
+				<Image Source="Images/billey.jpeg"/>
+			</Border>
+			<Border BorderBrush="DarkBlue" BorderThickness="8" ToolTip="Gachi BoyZZZ" x:Name="border2" Width="250">
+				<Image Source="Images/gachi.jpg"/>
+			</Border>
+			<Border BorderBrush="DarkBlue" BorderThickness="8" ToolTip="Gachi Boy" x:Name="border3" Width="250">
+				<Image Source="Images/billy.png"/>
+			</Border>
+			<Border BorderBrush="DarkBlue" BorderThickness="8" ToolTip="Gachi Boy" x:Name="border4" Width="250">
+				<Image Source="Images/faceDeEnerias.png"/>
+			</Border>
+			<Border BorderBrush="DarkBlue" BorderThickness="8" ToolTip="Gachi Boy" x:Name="border5" Width="250">
+				<Image Source="Images/jojo_Trump.png"/>
+			</Border>
+			<Border BorderBrush="DarkBlue" BorderThickness="8" ToolTip="Gachi Boy" x:Name="border6" Width="250">
+				<Image Source="Images/jojo.jpg"/>
+			</Border>
+			<Border BorderBrush="DarkBlue" BorderThickness="8" ToolTip="Gachi Boy" x:Name="border7" Width="250">
+				<Image Source="Images/jojo.png"/>
+			</Border>
+			<Slider x:Name="slider" Orientation="Horizontal" Margin="5" Value="50" Minimum="0" Maximum="100" LargeChange="10" 
+						AutoToolTipPlacement="BottomRight" Background="LightGray"
+						VerticalAlignment="Center" BorderThickness="4" BorderBrush="Black" TickFrequency="1" TickPlacement="TopLeft" ValueChanged="slider_ValueChanged"/>
+		</StackPanel>
+	</ScrollViewer>
+</Window>
