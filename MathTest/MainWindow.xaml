@@ -1,0 +1,85 @@
+﻿<Window x:Class="MathTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MathTest"
+        mc:Ignorable="d"
+        Title="Math-Test" Height="651.098" Width="511.545">
+	<ScrollViewer>
+		<StackPanel Margin="10 15 10 5">
+			<StackPanel Margin="2" Background="Beige">
+				<TextBlock TextWrapping="Wrap" Text="1) 228 - 322 gachi muchi overflow how it happened? GACHI BOY? OR NOT?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb1" Margin="19,5,0,0" GroupName="Q1" Background="White" BorderThickness="2.5" Content="1" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb2" Margin="19,5,0,0" GroupName="Q1" Background="White" BorderThickness="2.5" Content="11" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb3" Margin="19,5,0,0" GroupName="Q1" Background="White" BorderThickness="2.5" Content="2" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb4" Margin="19,5,0,0" GroupName="Q1" Background="White" BorderThickness="2.5" Content="2.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<StackPanel Margin="2" Background="AliceBlue">
+				<TextBlock Text="2) 1 + 1 = ?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb21" Margin="19,5,0,0" GroupName="Q2" Background="White" BorderThickness="2.5" Content="1" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb22" Margin="19,5,0,0" GroupName="Q2" Background="White" BorderThickness="2.5" Content="11" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb23" Margin="19,5,0,0" GroupName="Q2" Background="White" BorderThickness="2.5" Content="2" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb24" Margin="19,5,0,0" GroupName="Q2" Background="White" BorderThickness="2.5" Content="2.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<StackPanel Margin="2" Background="Beige">
+				<TextBlock Text="3) 2 + 2 = ?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb31" Margin="19,5,0,0" GroupName="Q3" Background="White" BorderThickness="2.5" Content="3" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb32" Margin="19,5,0,0" GroupName="Q3" Background="White" BorderThickness="2.5" Content="4" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb33" Margin="19,5,0,0" GroupName="Q3" Background="White" BorderThickness="2.5" Content="5" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb34" Margin="19,5,0,0" GroupName="Q3" Background="White" BorderThickness="2.5" Content="22" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<StackPanel Margin="2" Background="AliceBlue">
+				<TextBlock Text="4) 1 + 5 = ?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb41" Margin="19,5,0,0" GroupName="Q4" Background="White" BorderThickness="2.5" Content="15" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb42" Margin="19,5,0,0" GroupName="Q4" Background="White" BorderThickness="2.5" Content="12" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb43" Margin="19,5,0,0" GroupName="Q4" Background="White" BorderThickness="2.5" Content="1.5" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb44" Margin="19,5,0,0" GroupName="Q4" Background="White" BorderThickness="2.5" Content="15.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<StackPanel Margin="2" Background="Beige">
+				<TextBlock Text="5) 322 + 0 = ?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb51" Margin="19,5,0,0" GroupName="Q5" Background="White" BorderThickness="2.5" Content="322" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb52" Margin="19,5,0,0" GroupName="Q5" Background="White" BorderThickness="2.5" Content="322.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb53" Margin="19,5,0,0" GroupName="Q5" Background="White" BorderThickness="2.5" Content="322.00" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb54" Margin="19,5,0,0" GroupName="Q5" Background="White" BorderThickness="2.5" Content="322.00" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<StackPanel Margin="2" Background="AliceBlue">
+				<TextBlock Text="6) 228 + 0 = ?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb61" Margin="19,5,0,0" GroupName="Q6" Background="White" BorderThickness="2.5" Content="228" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb62" Margin="19,5,0,0" GroupName="Q6" Background="White" BorderThickness="2.5" Content="228.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb63" Margin="19,5,0,0" GroupName="Q6" Background="White" BorderThickness="2.5" Content="228.00" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb64" Margin="19,5,0,0" GroupName="Q6" Background="White" BorderThickness="2.5" Content="228.00" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<StackPanel Margin="2" Background="Beige">
+				<TextBlock Text="7) 15 + 5 = ?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb71" Margin="19,5,0,0" GroupName="Q7" Background="White" BorderThickness="2.5" Content="20.00" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb72" Margin="19,5,0,0" GroupName="Q7" Background="White" BorderThickness="2.5" Content="20" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb73" Margin="19,5,0,0" GroupName="Q7" Background="White" BorderThickness="2.5" Content="20.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb74" Margin="19,5,0,0" GroupName="Q7" Background="White" BorderThickness="2.5" Content="22" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<StackPanel Margin="2" Background="AliceBlue">
+				<TextBlock Text="8) 1 + 15 = ?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb81" Margin="19,5,0,0" GroupName="Q8" Background="White" BorderThickness="2.5" Content="115" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb82" Margin="19,5,0,0" GroupName="Q8" Background="White" BorderThickness="2.5" Content="115.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb83" Margin="19,5,0,0" GroupName="Q8" Background="White" BorderThickness="2.5" Content="115.00" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb84" Margin="19,5,0,0" GroupName="Q8" Background="White" BorderThickness="2.5" Content="115.000" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<StackPanel Margin="2" Background="Beige">
+				<TextBlock Text="9) 1 + 1 = ?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb92" Margin="19,5,0,0" GroupName="Q9" Background="White" BorderThickness="2.5" Content="228.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb91" Margin="19,5,0,0" GroupName="Q9" Background="White" BorderThickness="2.5" Content="228" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb93" Margin="19,5,0,0" GroupName="Q9" Background="White" BorderThickness="2.5" Content="228.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb94" Margin="19,5,0,0" GroupName="Q9" Background="White" BorderThickness="2.5" Content="228.00" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<StackPanel Margin="2" Background="AliceBlue">
+				<TextBlock Text="10) 220 + 5 = ?" Margin="5 0 0 0" FontSize="15" FontWeight="Bold"/>
+				<RadioButton Name="rb101" Margin="19,5,0,0" GroupName="Q10" Background="White" BorderThickness="2.5" Content="225" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb102" Margin="19,5,0,0" GroupName="Q10" Background="White" BorderThickness="2.5" Content="225.0" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb103" Margin="19,5,0,0" GroupName="Q10" Background="White" BorderThickness="2.5" Content="225.00" FontSize="12" FontFamily="Verdana" Padding="2"/>
+				<RadioButton Name="rb104" Margin="19,5,0,0" GroupName="Q10" Background="White" BorderThickness="2.5" Content="225.000" FontSize="12" FontFamily="Verdana" Padding="2"/>
+			</StackPanel>
+			<Button x:Name="bCheckResults" Content="I'm here for give u a mark:) &quot;CLICK ME&quot;" Margin="2" Background="LightGreen" Click="BCheckResults_Click"/>
+			<TextBlock x:Name="tbResult" FontSize="15" FontFamily="Verdana"/>
+		</StackPanel>
+	</ScrollViewer>
+</Window>
