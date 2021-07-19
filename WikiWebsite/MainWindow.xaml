@@ -1,0 +1,138 @@
+﻿<Window x:Class="WikiWebsite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WikiWebsite"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1378.38" Width="1400">
+	<ScrollViewer>
+		<DockPanel>
+			<FlowDocumentScrollViewer Margin="5">
+				<FlowDocument>
+					<Paragraph xml:space="preserve"><Underline FontSize="35"><Bold>WIKI_________________________________________________</Bold></Underline>
+						<Separator/>
+					</Paragraph>
+					<Paragraph>
+						Материал из Википедии — свободной энциклопедии
+					</Paragraph>
+					<Paragraph xml:space="preserve">     <Italic>У этого термина существуют и другие значения, см. Вики (значения).</Italic>
+					</Paragraph>
+					<Paragraph>
+						<Bold>Ви́ки</Bold> (
+						<Hyperlink>англ.</Hyperlink> wiki) —
+						<Hyperlink>веб-сайт</Hyperlink> , содержимое которого пользователи могут самостоятельно изменять с помощью инструментов, предоставляемых самим сайтом. Форматирование текста и вставка различных объектов в текст производится с использованием
+						<Hyperlink>вики-разметки.</Hyperlink> В частности, на базе этих принципов построена
+						<Hyperlink>Википедия</Hyperlink> и другие проекты
+						<Hyperlink>Фонда Викимедиа[1]</Hyperlink> .
+					</Paragraph>
+					<Paragraph>
+						Содержание
+						<Hyperlink>[Скрыть]</Hyperlink>
+						<Floater Width="80" Padding="1" HorizontalAlignment="Left">
+							<List MarkerStyle="Decimal" Background="AliceBlue">
+								<ListItem>
+									<Paragraph>1</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>2</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>3</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>4</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>5</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>6</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>7</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>8</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>9</Paragraph>
+								</ListItem>
+							</List>
+						</Floater>
+					</Paragraph>
+
+					<Paragraph FontSize="35">
+						<Underline>
+							History_____________________________________________________
+						</Underline>
+					</Paragraph>
+					<Paragraph>
+						Впервые термин «вики» для описания веб-сайта был использован в 1995 году
+						<Hyperlink>Уордом Каннингемом</Hyperlink> , разработчиком первой вики-системы
+						<Hyperlink>WikiWikiWeb</Hyperlink> , «Портлендского хранилища образцов» программного кода
+						<Hyperlink>[2]</Hyperlink> , созданной 25 марта 1995 года, который заимствовал слово
+						<Hyperlink>гавайского языка</Hyperlink> , означающее «быстрый»
+						<Hyperlink>[3][4]</Hyperlink> . Каннингем объяснил выбор названия движка тем, что он вспомнил работника международного аэропорта Гонолулу, посоветовавшего ему воспользоваться
+						<Hyperlink>вики-вики шаттлом</Hyperlink> — небольшим автобусом, курсировавшим между терминалами аэропорта. Каннингем же планировал сделать движок, позволявший пользователям максимально быстро редактировать и создавать статьи. Каннингем первоначально описал вики как «простейшую онлайн-базу данных, которая может функционировать»
+						<Hyperlink>[5]</Hyperlink> . Позже этому слову был придуман английский
+						<Hyperlink>бэкроним</Hyperlink> «What I Know Is…» («то, что я знаю, это…»)
+						<Hyperlink>[6]</Hyperlink> .
+					</Paragraph>
+					<Paragraph>
+						<Underline>
+							Сущность концепции вики____________________________________________________________________________________________________________
+						</Underline>
+					</Paragraph>
+					<Paragraph>
+						<Hyperlink>Уорд Каннингем</Hyperlink> и его соавтор
+						<Run Foreground="Red">Бо Леуф</Run>  в их книге
+						<Run Foreground="Red">The Wiki Way: Quick Collaboration on the Web</Run> описали сущность концепции вики следующим образом:
+					</Paragraph>
+					<List MarkerStyle="Disc">
+						<ListItem Margin="0 0 0 15">
+							<Paragraph>Вики предлагает всем пользователям редактировать любую страницу или создавать новые страницы на вики-сайте, используя обычный веб-браузер без каких-либо его расширений.</Paragraph>
+						</ListItem>
+						<ListItem Margin="0  0 0 15">
+							<Paragraph>Вики поддерживает связи между разными страницами за счёт почти интуитивно понятного создания ссылок на другие страницы и отображения того, существуют данные страницы или нет.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Вики не является тщательно изготовленным сайтом для случайных посетителей. Напротив, Вики стремится привлечь посетителей к непрерывному процессу создания и сотрудничества, который постоянно меняет вид сайта.</Paragraph>
+						</ListItem>
+					</List>
+					<Paragraph FontSize="30">
+						<Underline>
+							Определяющие свойства_________________________________________________
+						</Underline>
+					</Paragraph>
+					<Paragraph>
+						Вики характеризуется такими признаками:
+					</Paragraph>
+					<List MarkerStyle="Disc">
+						<ListItem Margin="0 0 0 15">
+							<Paragraph>
+								<Bold>Возможность многократно править текст</Bold> посредством самой вики-среды (сайта), без применения особых приспособлений на стороне редактора.
+							</Paragraph>
+							<List>
+								<ListItem>
+									<Paragraph>Особый
+										<Hyperlink>язык разметки</Hyperlink> — так называемая вики-разметка, которая позволяет легко и быстро размечать в тексте структурные элементы и гиперссылки; форматировать и оформлять отдельные элементы[7].
+									</Paragraph>
+								</ListItem>
+								<ListItem>
+									<Paragraph>Учёт изменений (версий) страниц: возможность сравнения редакций и восстановления ранних.</Paragraph>
+								</ListItem>
+							</List>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Учёт изменений (версий) страниц: возможность сравнения редакций и восстановления ранних.</Paragraph>
+						</ListItem>
+						<ListItem>
+							<Paragraph>Проявление изменений сразу после их внесения.</Paragraph>
+						</ListItem>
+					</List>
+				</FlowDocument>
+			</FlowDocumentScrollViewer>
+		</DockPanel>
+	</ScrollViewer>
+</Window>
