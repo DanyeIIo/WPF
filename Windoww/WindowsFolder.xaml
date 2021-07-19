@@ -1,0 +1,19 @@
+﻿<Window x:Class="Windoww.WindowsFolder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Windoww"
+        mc:Ignorable="d"
+        Title="WindowsFolder" Height="89.404" Width="540.728">
+	<ScrollViewer x:Name="scroll" CanContentScroll="True">
+		<StackPanel>
+			<Button x:Name="b1" Content="Click me" Click="b1_Click"/>
+			<TreeView>
+				<TreeViewItem x:Name="treeViewItem">
+
+				</TreeViewItem>
+			</TreeView>
+		</StackPanel>
+	</ScrollViewer>
+</Window>

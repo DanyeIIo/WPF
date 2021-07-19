@@ -1,0 +1,70 @@
+﻿<Window x:Class="Windoww.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Windoww"
+        mc:Ignorable="d"
+		WindowStyle="SingleBorderWindow"
+		Icon="Images/user.png"
+		ShowInTaskbar="False"
+		Topmost="True"
+		WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="450" Width="800">
+	<StackPanel>
+		<!--<Image Height="200">
+			<Image.Source>
+				<FormatConvertedBitmap Source="Images/android_os_48.png"
+					DestinationFormat="Gray32Float"/>
+			</Image.Source>
+		</Image>
+		<Image Height="200" Source="Images/android_os_48.png"/>-->
+		<TextBlock TextDecorations="Underline">linia pod textom</TextBlock>
+		<TextBlock TextDecorations="Baseline">linia pod textom(blizhe)</TextBlock>
+		<TextBlock TextDecorations="OverLine">linia nad textom</TextBlock>
+		<TextBlock TextDecorations="Strikethrough">za4erknutii text</TextBlock>
+		<TabControl>
+			<TabItem Header="Digits">
+				<GroupBox Header="Digit parts" Margin="5" Padding="5">
+					<StackPanel>
+						<CheckBox>1</CheckBox>
+						<CheckBox>2</CheckBox>
+						<CheckBox>3</CheckBox>
+						<CheckBox>4</CheckBox>
+						<CheckBox>5</CheckBox>
+					</StackPanel>
+				</GroupBox>
+			</TabItem>
+			<TabItem Header="Letters">
+				<StackPanel>
+					<CheckBox>A</CheckBox>
+					<CheckBox>B</CheckBox>
+					<CheckBox>C</CheckBox>
+					<CheckBox>D</CheckBox>
+				</StackPanel>
+			</TabItem>
+		</TabControl>
+		<TreeView>
+			<TreeViewItem Header="Sobaka">
+				<TreeViewItem Header="Biggest">
+					<TreeViewItem Header="c#"/>
+					<TreeViewItem Header="barpei"/>
+					<TreeViewItem Header="varpei"/>
+					<TreeViewItem Header="sarpei"/>
+				</TreeViewItem>
+				<TreeViewItem Header="Smalls">
+					<TreeViewItem Header="Bulldog"/>
+					<TreeViewItem Header="Biggi"/>
+					<TreeViewItem Header="Diggi"/>
+				</TreeViewItem>
+			</TreeViewItem>
+			<TreeViewItem Header="Cats">
+				<TreeViewItem Header="MainCoon"/>
+			</TreeViewItem>
+		</TreeView>
+		<Button Content="Change" Click="Button_Click"/>
+		<Button Cursor="Help">Help</Button>
+		<Button Cursor="Wait">Wait</Button>
+		<Button Cursor="No">No</Button>
+	</StackPanel>
+</Window>
