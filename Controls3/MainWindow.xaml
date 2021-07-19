@@ -1,0 +1,86 @@
+﻿<Window x:Class="Controls3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Controls3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="923.6" Width="800">
+	<StackPanel>
+		<ComboBox Name="groups" Height="25">
+			<ComboBoxItem>182</ComboBoxItem>
+			<ComboBoxItem>192</ComboBoxItem>
+			<ComboBoxItem>182-1/2</ComboBoxItem>
+			<ComboBoxItem>182-M</ComboBoxItem>
+			<ComboBoxItem>182-d</ComboBoxItem>
+			<ComboBoxItem>182</ComboBoxItem>
+			<ComboBoxItem>D - 182</ComboBoxItem>
+		</ComboBox>
+		<ComboBox Height="35" Width="205">
+			<ComboBoxItem>
+				<Image Source="Image/info.png" Width="100"/>
+			</ComboBoxItem>
+			<ComboBoxItem>
+				<Image Source="Image/info.png" Width="100"/>
+			</ComboBoxItem>
+			<ComboBoxItem>
+				<Image Source="Image/info.png" Width="100"/>
+			</ComboBoxItem>
+			<ComboBoxItem>
+				<Image Source="Image/info.png" Width="100"/>
+			</ComboBoxItem>
+			<ComboBoxItem>
+				<Image Source="Image/info.png" Width="100"/>
+			</ComboBoxItem>
+		</ComboBox>
+		<StackPanel Width="100" HorizontalAlignment="Left">
+			<TextBlock FontWeight="Bold" Text="Learning lang"/>
+			<ListBox x:Name="languages">
+				<ListBoxItem Background="Green">C</ListBoxItem>
+				<ListBoxItem Background="MediumVioletRed">C</ListBoxItem>
+				<ListBoxItem Background="Violet">B</ListBoxItem>
+				<ListBoxItem Background="DarkCyan">C</ListBoxItem>
+				<ListBoxItem Background="Ivory">C</ListBoxItem>
+				<ListBoxItem Background="DarkCyan">C</ListBoxItem>
+			</ListBox>
+			<Button Content="Click" Click="Button_Click"/>
+		</StackPanel>
+		<StackPanel>
+			<Menu Height="25" VerticalAlignment="Top">
+				<MenuItem Header="File">
+					<MenuItem Header="Create">
+						<MenuItem.Icon>
+							<Image Source="Image/search.png"/>
+						</MenuItem.Icon>
+						<MenuItem Header="C"/>
+						<MenuItem Header="1"/>
+						<MenuItem Header="2"/>
+						<MenuItem Header="3"/>
+						<MenuItem Header="4"/>
+					</MenuItem>
+					<MenuItem Header="Open"/>
+					<Separator/>
+					<MenuItem Header="Save"/>
+				</MenuItem>
+			</Menu>
+		</StackPanel>
+		<ScrollViewer x:Name="scroll" CanContentScroll="True" Height="100">
+			<StackPanel>
+				<Calendar SelectedDate="01/01/2021"/>
+				<Calendar SelectionMode="None"/>
+				<Calendar SelectionMode="MultipleRange"/>
+				<Calendar SelectionMode="SingleDate"/>
+				<Calendar SelectionMode="SingleRange"/>
+			</StackPanel>
+		</ScrollViewer>
+		<StackPanel>
+			<DatePicker/>
+			<DatePicker SelectedDate="01.01.2020"/>
+			<DatePicker SelectedDate="01.01.2020" SelectedDateFormat="Long"/>
+			<DatePicker SelectedDate="01.01.2020" DisplayDateStart="05.01.2020" DisplayDateEnd="05.30.2020"/>
+		</StackPanel>
+		<StackPanel>
+			<Button Click="Button2_Click" Content="ASDASD"/>
+		</StackPanel>
+	</StackPanel>
+</Window>
